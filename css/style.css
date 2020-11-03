@@ -33,3 +33,21 @@ img{
     height: 5em;
     /* background-color: aliceblue; */
 }
+.menu{
+    width: 100%;
+    max-width: 50em;
+}
+.menu ul{
+    list-style-type: none;
+
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0.9em 0.66em;
+}
+.menu a:hover{
+    color: var(--red)
+}
